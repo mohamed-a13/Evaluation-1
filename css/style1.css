@@ -1,0 +1,213 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+/* ******* HEADER START ******* */
+
+header {
+  background: url(../images/ballon.jpg) no-repeat 50% 50%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.navbar {
+  background-color: black !important;
+}
+
+.navbar .title {
+  font-size: 2rem;
+  color: rgb(223, 175, 86) !important;
+}
+
+.nav-link {
+  color: rgb(223, 175, 86) !important;
+  letter-spacing: 3px;
+  font-size: 1.3rem;
+}
+
+#btnMenu {
+  color: rgb(223, 175, 86) !important;
+}
+
+.row-message {
+  margin-top: 6rem;
+  margin-left: 2rem;
+  height: 300px;
+  width: 47%;
+  font-size: 7rem;
+  text-transform: uppercase;
+  align-items: center;
+  text-align: center;
+}
+
+.colorOrange {
+  color: rgb(223, 175, 86) !important;
+}
+
+/* ******* HEADER END ******* */
+
+/* ******* A PROPOS START ******* */
+
+.row-presentation {
+  height: 30vh;
+  background-color: rgb(223, 175, 86);
+}
+
+.presentation {
+  margin: auto;
+  width: 70%;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.row-img {
+  height: 70vh;
+  background-color: black;
+}
+
+.img {
+  height: 80%;
+  width: 80%;
+  margin: auto;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  .row-presentation {
+    height: 40vh;
+  }
+}
+
+@media screen and (max-width: 926px) {
+  .row-presentation {
+    height: 50vh;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .row-presentation {
+    height: 60vh;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .row-presentation {
+    height: 70vh;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .row-presentation {
+    height: 75vh;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .row-presentation {
+    height: 80vh;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .row-presentation {
+    height: 85vh;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .row-presentation {
+    height: 90vh;
+  }
+}
+
+/* ******* A PROPOS END ******* */
+
+/* ******** TARIFS START ******* */
+
+.row-tarifs {
+  padding: 5% 10%;
+  background-color: rgb(223, 175, 86);
+}
+
+.table {
+  background-color: black;
+  color: rgb(223, 175, 86);
+}
+
+/* ******** TARIFS END ******* */
+
+/* ******* CONTACT START ******* */
+
+.row-contact {
+  height: 30vh;
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  color: rgb(223, 175, 86);
+  padding: 3% 20%;
+  text-align: center;
+}
+
+.row-contact .reseaux li {
+  list-style: none;
+  font-size: 20px;
+  padding-right: 2rem;
+}
+
+.fa-youtube-square {
+  background-color: black;
+  color: rgb(223, 175, 86);
+}
+
+.fa-facebook-square {
+  background-color: black;
+  color: rgb(223, 175, 86);
+}
+
+.fa-twitter-square {
+  background-color: black;
+  color: rgb(223, 175, 86);
+}
+
+.row-contact .col-email .email p a {
+  text-decoration: none;
+  color: rgb(223, 175, 86);
+}
+
+.row-contact .col-email .email p a .fa-envelope {
+  font-size: 20px;
+  background-color: black;
+  color: rgb(223, 175, 86);
+  margin: 7px 0 0 5px;
+}
+
+@media screen and (max-width: 1200px) {
+  .row-contact {
+    height: 50vh;
+  }
+}
+
+@media screen and (max-width: 926px) {
+  .row-contact {
+    height: 50vh;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .row-contact {
+    height: 65vh;
+  }
+}
+/* ******* CONTACT END ******* */

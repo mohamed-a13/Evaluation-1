@@ -1,0 +1,65 @@
+*, html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden; 
+}
+
+
+/* ******* HEADER START ******* */
+
+header {
+  background: url(../images/terain2.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  height: 100vh;
+}
+
+.row-header {
+  position: relative;
+  top: 33rem;
+  text-align: center;
+  color: white;
+  font-size: 5rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 1220px) {
+  .row-header {
+    font-size: 4rem;
+  }
+}
+
+/* ******* HEADER END ******* */
+
+/* ******* ROW START ******* */
+
+section {
+  background-color: rgb(158, 168, 159);
+}
+
+.col-xl-6 {
+  width: 50%;
+  padding: 0;
+}
+
+.card {
+  width: 50%;
+  margin: auto;
+  background-color: rgb(91, 124, 53);
+  color: white;
+}
+
+@media screen and (max-width: 615px) {
+  .row-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .col-xl-6 {
+    width: 100%;
+  }
+}
+
+/* ******* ROW END ******* */
